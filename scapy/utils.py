@@ -25,7 +25,8 @@ from scapy.config import conf
 from scapy.consts import DARWIN, WINDOWS
 from scapy.data import MTU
 from scapy.compat import *
-from scapy.error import log_runtime, log_loading, log_interactive, Scapy_Exception, warning
+from scapy.error import log_runtime, log_loading, log_interactive, log_scapy, \
+    Scapy_Exception, warning
 from scapy.base_classes import BasePacketList
 
 ###########

@@ -5,6 +5,9 @@
 
 from __future__ import print_function
 import socket
+
+
+from scapy.consts import WINDOWS
 from scapy.modules.six.moves.queue import Queue, Empty
 from scapy.pipetool import Source,Drain,Sink
 from scapy.config import conf

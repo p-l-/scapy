@@ -24,6 +24,7 @@ except:
 
 # Never add any global import, in main.py, that would trigger a warning messsage
 # before the console handlers gets added in interact()
+from scapy.config import conf
 from scapy.error import log_interactive, log_loading, log_scapy, warning
 import scapy.modules.six as six
 from scapy.themes import DefaultTheme, apply_ipython_color

@@ -292,6 +292,7 @@ def apply_ipython_color(shell):
     """Updates the specified IPython console shell with
     the conf.color_theme scapy theme."""
     from IPython.terminal.prompts import Prompts, Token
+    from scapy.config import conf
     shell.highlighting_style_overrides = {
         Token.Prompt: Color.ansi_to_pygments(conf.color_theme.style_prompt),
     }
